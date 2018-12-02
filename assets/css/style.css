@@ -1,0 +1,15 @@
+body {
+    background-image: url("../images/everest.jpg");
+    background-position: fill;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Fahkwang', sans-serif;
+}
+/* Setting the opacity high to offset the issue(looking crappy) I was seeing in the answer image */
+.background {
+    opacity: 0.92;
+}
+/* I did try changing the opacity for images but I learned that it's not possible due to it being applied to the element and any children/content in the element. */
+/* .mountain {
+    opacity: 1.0;
+} */
